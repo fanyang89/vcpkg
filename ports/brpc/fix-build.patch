@@ -176,7 +176,7 @@ index fbcc7cc5..868270ea 100644
 +find_dependency(Threads)
 +find_dependency(ZLIB)
 +find_dependency(gflags CONFIG)
-+find_dependency(protobuf CONFIG)
++find_dependency(Protobuf CONFIG)
 +find_dependency(leveldb CONFIG)
 +find_dependency(Thrift CONFIG)
 +find_dependency(glog CONFIG)
