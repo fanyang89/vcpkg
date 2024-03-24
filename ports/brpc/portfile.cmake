@@ -15,8 +15,8 @@ vcpkg_cmake_configure(
     DISABLE_PARALLEL_CONFIGURE
     OPTIONS
         -DBUILD_BRPC_TOOLS=OFF
-        -DWITH_THRIFT=ON
-        -DWITH_GLOG=ON
+        -DWITH_THRIFT=OFF
+        -DWITH_GLOG=OFF
         -DDOWNLOAD_GTEST=OFF
 )
 
